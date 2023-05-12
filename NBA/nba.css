@@ -1,0 +1,50 @@
+#body{
+	
+width:100%;
+height:1000px;
+margin:0;
+padding:0;	
+}
+
+
+#nbawall{
+	position:absolute;
+	background-size:cover;
+	background-image:url('./nbaball.jpg');
+	width:100%;
+	height:1000px;   /*(oryginalny height wynosi 2000px) żeby zmniejszyć proporcjonalnie obraz np z 3000px na okno przeglądarki, należy width 100% a height proporcjonalnie zmniejszyc  o połowę*/
+	
+	
+	
+}
+
+#ekipa{
+    margin-left:900px;
+	margin-right:120px;
+	margin-top:150px;
+	position:absolute;
+	
+}
+
+
+
+
+#box{
+	
+    margin:0.5% 0.5%;
+	width:102px;
+	height:102px;
+	opacity:0.65;
+	float:left;
+	
+}
+
+#box:hover{
+	
+
+	transform: scale(1.2);  /*zwiększa obrazek z 4 stron, skaluje*/
+	opacity:0.99;
+	
+	
+	
+}

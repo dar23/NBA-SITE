@@ -1,0 +1,23 @@
+#jordan{
+position: absolute;
+top:10vh;
+left:-40vh;
+animation-name:fly;
+animation-duration:1s;
+animation-fill-mode: forwards;
+height:80vh;
+width: auto;
+z-index: 3;
+overflow: hidden;
+}
+
+@keyframes fly{
+
+from {left:-40vh;}
+to {left:40%;}
+
+
+
+
+
+}

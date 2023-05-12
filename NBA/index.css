@@ -1,0 +1,479 @@
+body{
+	width:100%;
+	height:100vh;
+    margin:0;
+    padding: 0;
+	overflow: hidden;
+}
+
+@font-face
+
+{
+
+font-family: Collegiate;
+
+src:url(CollegiateFLF.ttf);
+
+}
+
+#1nba{
+position: absolute;
+top:17vh;
+left:34.8%;
+font-size:28vh;
+font-family: collegiate;
+
+}
+
+
+#all_star{
+
+font-family: collegiate;
+font-size:13vh;
+position: absolute;
+top:50vh;
+left:6%;
+
+
+}
+
+#data{
+    position: absolute;
+    top:67vh;
+    lefT:4%;
+    font-size:11vh;
+    font-family:collegiate;
+    
+    }
+    
+img#face{
+
+    width: 6vh;
+    height:6vh;
+
+
+position: absolute;
+top:89vh;
+left:3vh;
+border-radius:100%;
+}
+
+img#face:hover{
+
+color:rgb(16, 238, 216) ;
+border:0.2vh solid;
+} 
+
+img#twitter{
+
+    width:6vh;
+    height:6vh;
+    position: absolute;
+    top:89vh;
+    left:11vh;
+    border-radius:100%;
+}
+
+
+img#twitter:hover{
+
+    color:rgb(16, 238, 216) ;
+    border:0.2vh solid;
+    } 
+    
+
+
+img#mail{
+
+    width:6vh;
+    height:6vh;
+    position: absolute;
+    top:89vh;
+    left:19vh;
+    border-radius:100%;
+}
+
+img#mail:hover{
+
+    color:rgb(16, 238, 216) ;
+    border:0.2vh solid;
+    } 
+    
+
+
+
+
+#jordan{
+
+position: absolute;
+top:21vh;
+left:12%;
+z-index: 1;
+
+animation:jordan 2s forwards;
+}
+
+@keyframes jordan{
+
+from{opacity:0;}
+to{opacity:1;}
+
+
+}
+
+img#ball{
+     position: absolute;
+     top:22vh;
+     left:45%;
+     width:120%;
+   
+height: auto;
+opacity:0.9;
+animation: rotation 28s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            transform: rotate(0deg);
+    }
+    to {
+           transform: rotate(359deg);
+    }
+}
+
+
+x#straight1{
+
+
+height: 0.5vh;
+background-color: black;
+position: absolute;
+
+top:46vh;
+display:none;
+
+}
+
+
+@keyframes snake{
+
+from{width:0vh;}
+to{width:51%;}
+
+
+}
+
+x#straight2{
+
+    width:0.5vh;
+    height: 55vh;
+    background-color: black;
+    position: absolute;
+    left:25%;
+    top:18vh;
+  
+    
+    }
+
+@keyframes snake1{
+
+from{height:55vh;}
+to{height:0;}
+
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+#curry,#westbrook,#lebron,#harden,#kobe,#wade{
+
+float: left;
+margin: 0;
+padding: 0;
+background-size: 100% 100%;
+
+}
+
+
+#curry{
+
+animation:curry_animation 1s;
+opacity:1;
+margin-top:0;
+
+}
+
+@keyframes curry_animation{
+
+from{opacity: 0;margin-top:-13vh;}
+to{opacity:1; margin-top:0;}
+
+}
+
+#westbrook{
+    animation:westbrook_animation 1s;
+    opacity:1;
+    margin-top:0;
+margin-right: 0.2vh;
+}
+
+@keyframes westbrook_animation{
+
+    from{opacity: 0;margin-top:20vh; opacity:0;}
+    to{opacity:1; margin-top:0; opacity:1;}
+    
+    }
+
+#lebron{
+
+    animation:lebron_animation 1s;
+    opacity:1;
+    margin-top:0;
+
+
+}
+@keyframes lebron_animation{
+
+    from{opacity: 0;margin-top:-14vh; opacity:0;}
+    to{opacity:1; margin-top:0; opacity:1;}
+    
+    }
+
+
+ #harden{
+
+        animation:harden_animation 1s;
+        opacity:1;
+        margin-top:0;
+        margin-left:0.3vh;
+    
+    }
+
+    @keyframes harden_animation{
+
+        from{opacity: 0;margin-top:20vh; }
+        to{opacity:1; margin-top:0; }
+        
+        }
+
+
+#kobe { 
+
+            animation:kobe_animation 1s;
+            opacity:1;
+            margin-top:0vh;
+            margin-left:0.35vh;
+        
+        }
+    
+        @keyframes kobe_animation{
+    
+            from{opacity:0;margin-top:-13vh; }
+            to{opacity:1; margin-top:0; }
+            
+            }
+    
+
+ #wade { 
+
+                animation:wade_animation 1s;
+                opacity:1;
+                margin-top:0vh;
+                margin-left:0.35vh;
+            
+            }
+        
+            @keyframes wade_animation{
+        
+                from{opacity:0;margin-top:50vh; }
+                to{opacity:1; margin-top:0; }
+                
+                }
+
+
+#foto{
+width: 41.7%;
+height: 100vh;
+position: absolute;
+background-color: rgb(255, 255, 255);
+left: 2%;
+top:45vh;
+
+
+}
+
+@keyframes fotos{
+
+
+from{top:8vh;}
+to{top:100%;}
+}
+
+
+
+
+
+
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    
+    
+    }
+
+
+
+
+#stars{
+
+width:12%;
+height: auto;
+z-index: 1;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:7vh;
+
+text-align: center;
+line-height:7vh;
+position: absolute;
+left:100%;
+top:3vh;
+
+}
+
+@keyframes star
+{
+
+from{left: 120%;}
+to{left: 87%;}
+}
+
+@keyframes star1{
+
+from{left:87%;}
+to{left:120%;}
+
+
+}
+
+
+#menu_click_left{
+
+    width:5vh;height:5vh;
+    position: absolute; top:4vh; right:3vh;
+
+
+
+}
+#menu_click_right{
+
+    width:5vh;height:5vh;
+    position: absolute; top:4vh; right:32vh;
+   display: none;
+
+}
+
+@keyframes guzik{
+
+from{left:90%; } 
+to{left:84%;transform:rotate(180deg);}
+
+}
+@keyframes guzik1{
+
+    from{left:84%;transform:rotate(180deg); } 
+    to{left:96%;}
+    
+    }
+    
+
+
+.best0,.best1,.best2,.best3,.best4,.best5,.best6,
+.best7,.best8,.best9,.best10,.best11 {
+border:0.1vh solid black;
+font-size:3vh;
+height: 7vh;
+border: solid 0.04vh rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+color:white;
+}
+ 
+
+.best0:hover,.best1:hover,.best2:hover,.best3:hover,.best4:hover,.best5:hover,.best6:hover,
+.best7:hover,.best8:hover,.best9:hover,.best10:hover,.best11:hover{
+
+background-color: olivedrab;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+

@@ -1,0 +1,10 @@
+ <div id="foto" onclick="myMove()"> 
+
+     <div id="curry" ><img src="curry.jpg" style="width:  auto; height: 50vh;"></div> 
+     <div id="westbrook"><img src="westbrook.jpg" style="width:  auto; height: 50vh;"></div>
+     <div id="lebron"><img src="lebron.jpg" style="width:  auto; height: 50vh;"></div> 
+     <div id="harden"><img src="harden.jpg" style="width:  auto; height:50vh;"></div>
+     <div id="kobe"><img src="kobe.jpg" style="width:  auto; height:50vh;"></div> 
+     <div id="wade"><img src="wade.jpg" style="width:  auto; height: 50vh;"></div>
+
+</div>
